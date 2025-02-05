@@ -91,11 +91,11 @@ const LoginLogout = () => {
     }
   };
 
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-    setUsername('');
-    setPassword('');
-  };
+  // const handleLogout = () => {
+  //   setIsAuthenticated(false);
+  //   setUsername('');
+  //   setPassword('');
+  // };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
